@@ -1,0 +1,64 @@
+	.wrapper{
+			width: 1500px;
+		}	
+		.area{
+			width: 564px;
+			margin: 0 auto;
+		}
+		.block{
+
+			width: 500px;
+			margin: 0 auto;
+			padding: 30px;
+			height: 80px;
+			border: 2px solid #0d2;
+			
+			
+		}
+		
+		
+		.block2{
+			
+			width: 500px;
+			border: 2px solid rgba(139, 19, 44);
+			margin: 0 auto;
+			padding: 0 30px;
+			opacity: 0;
+			height: 0;
+			overflow: hidden;
+			transition-property: opacity, height, padding, margin;
+			transition-duration: 0.4s, 0.4s, 0.4s, 0.4s;
+			
+		}
+		.area:hover .block2{
+			opacity: 1;
+			height: 100px;
+			padding: 30px 30px;
+			margin: 30px auto;
+		}
+		
+		
+
+.sector{
+	width: 500px;
+	margin: 5px auto;
+}		
+.sector-trigger{
+	border: 2px solid rgb(58, 12, 197);
+	padding: 20px;
+}
+.sector-content{
+	border: 2px solid rgb(100, 100, 100);
+	padding: 20px;
+	background-color: rgb(88, 145, 99);
+	color: #fff;
+	opacity: 0.99;
+	transition-duration: 1.5s;
+	transition-property: opacity;
+}
+.sector:href .block2{
+			opacity: 1;
+			height: 100px;
+			padding: 30px 30px;
+			margin: 30px auto;
+}
